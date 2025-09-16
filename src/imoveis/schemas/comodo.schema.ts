@@ -1,13 +1,12 @@
-
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { HydratedDocument } from 'mongoose';
 
-export type comodoDocument = HydratedDocument<Comodo>;
+export type ComodoDocument = HydratedDocument<Comodo>;
 
 @Schema()
 export class Comodo {
   @Prop()
-  name: string;
+  nome: string;
 }
 
 export const ComodoSchema = SchemaFactory.createForClass(Comodo);

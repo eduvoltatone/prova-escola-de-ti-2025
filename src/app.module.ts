@@ -3,7 +3,10 @@ import { ImoveisModule } from './imoveis/imoveis.module';
 import { MongooseModule } from '@nestjs/mongoose';
 
 @Module({
-  imports: [MongooseModule.forRoot('mongodb://localhost/imoveis')],
+  imports: [
+    ImoveisModule,
+    MongooseModule.forRoot('mongodb://localhost/prova-eti'),
+  ],
   controllers: [],
   providers: [],
 })

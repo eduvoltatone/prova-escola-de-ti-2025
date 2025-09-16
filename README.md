@@ -9,6 +9,7 @@ Este projeto é uma aplicação web completa (Full Stack) para o gerenciamento d
 
 Sobre o Projeto A arquitetura do projeto é dividida em duas partes principais: o Backend, responsável por toda a lógica de negócio e comunicação com o banco de dados, e o Frontend, que fornece a interface visual para o usuário interagir com a aplicação.
 
-Backend (NestJS) O backend foi construído com NestJS, um framework Node.js que organiza o código de forma modular e escalável. Já o frontedn foi construído em Tailwind, uma tecnologia que facilita o desenvolvimento web.
+Backend (NestJS) O backend foi construído com NestJS, um framework Node.js que organiza o código de forma modular e escalável. Frontend (HTML, Tailwind CSS, JavaScript) A interface do usuário foi desenvolvida com tecnologias web fundamentais, focando na simplicidade e funcionalidade.
+
 
 
